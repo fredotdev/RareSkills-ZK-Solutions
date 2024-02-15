@@ -39,19 +39,6 @@ $$
 $$
 
 ## Turn set into constraints
-
-$$x_1^2 = x_1$$
-$$x_2^2 = x_2$$
-$$x_3^2 = x_3$$
-$$x_4^2 = x_4$$
-
-Constraints:  
-
-$$x_1 = x_1 \cdot x_1$$
-$$x_2 = x_2 \cdot x_2$$
-$$x_3 = x_3 \cdot x_3$$
-$$x_4 = x_4 \cdot x_4$$
-
 $$
     W = \begin{bmatrix}
     1 & x_1 & x_2 & x_2 & x_3 & x_4 \\
