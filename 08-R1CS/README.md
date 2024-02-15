@@ -1,5 +1,6 @@
-# Rank 1 Constraint Systems 
-## Constructing matrix C
+# Rank 1 Constraint Systems
+## Solutions
+### Constructing matrix C
 Let’s construct the matrix C. We know it will have three rows and eight columns  
 
 $$
@@ -38,7 +39,7 @@ $$
     \end{bmatrix}
 $$
 
-## Turn set into constraints
+### Turn set into constraints
 $$
     W = \begin{bmatrix}
     1 & x_1 & x_2 & x_2 & x_3 & x_4 \\
@@ -99,3 +100,5 @@ $$
     \end{array}
 $$
 
+## Errata
+```Multiply4``` is wrong in the text correction can be found [here](./circom_circuits/circuit_2.circom).
