@@ -37,3 +37,78 @@ $$
     0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 \\
     \end{bmatrix}
 $$
+
+## Turn set into constraints
+
+$$x_1^2 = x_1$$
+$$x_2^2 = x_2$$
+$$x_3^2 = x_3$$
+$$x_4^2 = x_4$$
+
+Constraints:  
+
+$$x_1 = x_1 \cdot x_1$$
+$$x_2 = x_2 \cdot x_2$$
+$$x_3 = x_3 \cdot x_3$$
+$$x_4 = x_4 \cdot x_4$$
+
+$$
+    W = \begin{bmatrix}
+    1 & x_1 & x_2 & x_2 & x_3 & x_4 \\
+    \end{bmatrix}
+$$
+
+$$
+    A=
+    \begin{array}{c c} &  
+    \begin{array}{c c c} 1 & x_1 & x_2 & x_3 & x_4 \\  
+    \end{array}  
+    \\  
+    &  
+    \left[  
+    \begin{array}{c c c}  
+    0 & 1 & 0 & 0 & 0 \\  
+    0 & 0 & 1 & 0 & 0 \\  
+    0 & 0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 0 & 1
+    \end{array}  
+    \right]  
+    \end{array}
+$$
+
+$$
+    B =
+    \begin{array}{c c} &  
+    \begin{array}{c c c} 1 & x_1 & x_2 & x_3 & x_4 \\  
+    \end{array}  
+    \\  
+    &  
+    \left[  
+    \begin{array}{c c c}  
+    0 & 1 & 0 & 0 & 0 \\  
+    0 & 0 & 1 & 0 & 0 \\  
+    0 & 0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 0 & 1
+    \end{array}  
+    \right]  
+    \end{array}
+$$
+
+$$
+    C =
+    \begin{array}{c c} &  
+    \begin{array}{c c c} 1 & x_1 & x_2 & x_3 & x_4 \\  
+    \end{array}  
+    \\  
+    &  
+    \left[  
+    \begin{array}{c c c}  
+    0 & 1 & 0 & 0 & 0 \\  
+    0 & 0 & 1 & 0 & 0 \\  
+    0 & 0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 0 & 1
+    \end{array}  
+    \right]  
+    \end{array}
+$$
+
